@@ -7,12 +7,26 @@
           "**/*.yml"
         ],
         "src": "docs-ref-autogen",
-        "dest": "api"
+        "dest": "api",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
       },
       {
         "files": [
-          "**/*.md",
           "**/*.yml"
+        ],
+        "src": "breadcrumb",
+        "dest": "breadcrumb",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md"
         ],
         "exclude": [
           "**/obj/**",
