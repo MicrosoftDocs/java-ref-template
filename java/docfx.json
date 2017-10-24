@@ -58,6 +58,6 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "java-template"
+    "dest": "_site"
   }
 }
