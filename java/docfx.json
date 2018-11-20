@@ -55,7 +55,8 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "~/breadcrumb/toc.yml"
-    },
+    },    
+    "markdownEngineName": "markdig",
     "fileMetadata": {},
     "template": [],
     "dest": "_site"
