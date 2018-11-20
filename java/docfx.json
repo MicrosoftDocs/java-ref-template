@@ -1,4 +1,5 @@
 {
+  "markdownEngineName": "markdig",
   "build": {
     "content": [
       {
