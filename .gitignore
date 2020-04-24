@@ -4,6 +4,8 @@ _site/
 .optemp/
 _themes*/
 _repo.*/
+src/
+_javadocs/
 
 .openpublishing.buildcore.ps1
 _dependentPackages
