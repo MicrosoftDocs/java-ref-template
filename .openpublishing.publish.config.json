@@ -10,7 +10,6 @@
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
-        "ManagedReference": "Content",
         "RestApi": "Content",
         "JavaMember": "Content",
         "JavaType": "Content",
@@ -20,9 +19,6 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
-      "customized_template_paths": [
-        "_dependentPackages/memberpage.plugins/content"
-      ],
       "customized_tasks": {
         "docset_prebuild": [
           "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1"
@@ -51,13 +47,6 @@
       "id": "Microsoft.OpenPublishing.CommonPlugins",
       "nuget_feed": "https://www.myget.org/F/op/api/v2",
       "path_to_root": "_dependentPackages/CommonPlugins",
-      "target_framework": "net45",
-      "version": "latest"
-    },
-    {
-      "id": "memberpage.plugins",
-      "nuget_feed": "https://www.myget.org/F/docfx/api/v2",
-      "path_to_root": "_dependentPackages/memberpage.plugins",
       "target_framework": "net45",
       "version": "latest"
     }
